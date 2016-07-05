@@ -14,16 +14,17 @@ body {
 header {
 	width: 80%;
 	margin: 0 auto;
-	border: 10px solid #3b5998;
+	border: 10px solid #006666;
 	height: 12em;
+	border-radius: 10px;
 }
 
 h1, h2 {
-	font-family: 'Nunito', Georgia;
+	font-family: 'Open Sans', Sans-Serif;
 }
 
 header h1 {
-	color: #3b5998;
+	color: #006666;
 	text-align: center;
 	padding-top: 0.5em;
 	font-size: 3em;
@@ -33,7 +34,7 @@ header h1 {
 	width: 30%;
 	font-size: 1.5em;
 	margin: 0 auto;
-	border: 2px solid #3b5998;
+	border: 2px solid #006666;
 	text-align: center;
 	padding: 1em;
 	margin-top: 1em;
