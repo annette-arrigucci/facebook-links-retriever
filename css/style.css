@@ -8,6 +8,7 @@ html {
 
 body {
 	background-color: #FFF;
+	font-family: 'Lora', Sans-Serif;
 }
 
 header {
@@ -17,10 +18,15 @@ header {
 	height: 12em;
 }
 
+h1, h2 {
+	font-family: 'Nunito', Georgia;
+}
+
 header h1 {
 	color: #3b5998;
 	text-align: center;
-	padding-top: 1.5em;
+	padding-top: 0.5em;
+	font-size: 3em;
 }
 
 .introduction p {
@@ -103,4 +109,18 @@ header h1 {
 
 .hidden {
 	display: none;
+}
+
+.links-example {
+	width: 80%;
+	margin: 2em auto;
+
+}
+
+.links-example h3 {
+	margin: 0;
+}
+
+.links-example p {
+	margin-top: 0;
 }

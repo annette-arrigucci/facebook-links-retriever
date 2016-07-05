@@ -27,7 +27,12 @@ friendsList[i].link);
 friendsList[i].picture);
 	}
 
-	var link1 = {
+	for(var i=0; i<3; i++){
+		var myClone = $(".links-example").clone(true);
+		$(".links-feed").append(myClone);
+	};
+
+	/*var link1 = {
 		name: "Headline1",
 		description: "The description of the link goes here",
 		link: "http://www.nytimes.com",
