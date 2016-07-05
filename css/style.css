@@ -1,0 +1,106 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background-color: #FFF;
+}
+
+header {
+	width: 80%;
+	margin: 0 auto;
+	border: 10px solid #3b5998;
+	height: 12em;
+}
+
+header h1 {
+	color: #3b5998;
+	text-align: center;
+	padding-top: 1.5em;
+}
+
+.introduction p {
+	width: 30%;
+	font-size: 1.5em;
+	margin: 0 auto;
+	border: 2px solid #3b5998;
+	text-align: center;
+	padding: 1em;
+	margin-top: 1em;
+}
+
+.center-panel {
+	width: 80%;
+	margin: 2em auto;
+	height: 20em;
+	overflow: hidden;
+}
+
+.add-friend {
+	float: left;
+	width: 30%;
+	margin-left: 5%;
+	margin-right: 10%;
+}
+
+.friend-list {
+	float: left;
+	width: 40%;
+	margin-left: 10%;
+	margin-right: 5%;
+}
+
+.friend-list li {
+	list-style-type: none;
+	width: 100%;
+	clear: both;
+}
+
+.friend-list img {
+	margin-right: 10px;
+	float: left;
+}
+
+.friend-list button {
+	float: right;
+	margin-top: 1em;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.friend-list p {
+	float: left;
+	padding-top: 0.5em;
+}
+
+.links-feed {
+	width: 30%;
+	margin: 2em auto;
+	overflow: hidden;
+}
+
+.links-feed h1 {
+	text-align: center;
+}
+
+.show-link {
+	width: 80%;
+	margin: 2em auto;
+
+}
+
+.show-link h3 {
+	margin: 0;
+}
+
+.show-link p {
+	margin-top: 0;
+}
+
+.hidden {
+	display: none;
+}
