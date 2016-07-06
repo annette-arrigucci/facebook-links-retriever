@@ -91,7 +91,7 @@
     "/me/feed",
     function (response) {
       if (response && !response.error) {
-        document.getElementById('.links-feed').innerHTML = response[0];
+        document.getElementById('.links-feed').innerHTML = response[0].id;
       }
     }
 );

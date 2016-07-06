@@ -28,10 +28,10 @@ friendsList[i].link);
 friendsList[i].picture);
 	}
 
-	for(var i=0; i<3; i++){
+/*	for(var i=0; i<3; i++){
 		var myClone = $(".links-example").clone(true);
 		$(".links-feed").append(myClone);
-	};
+	};*/
 
 	/*$("#search").on("click", function {
   	//checkLoginState();
