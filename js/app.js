@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
 	var friend1 = {
 		name: "Friend Name1",
 		link: "http://www.facebook.com",
