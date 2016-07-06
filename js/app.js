@@ -33,7 +33,7 @@ friendsList[i].picture);
 		$(".links-feed").append(myClone);
 	};
 
-	$("#search").on("click", function {
+	/*$("#search").on("click", function {
   	//checkLoginState();
   		var searchTerm = $("#friend-search").val();
     	alert(searchTerm);
@@ -41,8 +41,8 @@ friendsList[i].picture);
   		alert(queryString);
   		/*FB.api(queryString, function(response) {
        	alert(response.data[0].name);
-        });*/
-  });
+        });
+  });*/
 
 	/*var link1 = {
 		name: "Headline1",
