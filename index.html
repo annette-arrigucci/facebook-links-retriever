@@ -87,11 +87,9 @@
     });
   }
 
-  $("#search").on("click", searchName);
-
-  function searchName() {
-  	checkLoginState();
-  	var searchTerm = $("#search").val();
+  $("#search").on("click", function {
+  	//checkLoginState();
+  	var searchTerm = $("#friend-search").val();
   	var queryString = "/search?q=" + searchTerm + "&type=user";
   	FB.api(queryString, function(response) {
        alert(response.data[0].name);
