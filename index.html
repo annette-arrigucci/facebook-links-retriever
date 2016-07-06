@@ -94,7 +94,7 @@
   	var searchTerm = $("#search").val();
   	var queryString = "/search?q=" + searchTerm + "&type=user";
   	FB.api(queryString, function(response) {
-       alert("Query done");
+       alert(response.data[0].name);
     });
   }
 
