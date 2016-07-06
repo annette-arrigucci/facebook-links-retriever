@@ -88,11 +88,11 @@
   }
 
   FB.api(
-    "/me/feed",
+    "/me",
     function (response) {
       if (response && !response.error) {
         //document.getElementById('.links-feed').innerHTML = response[0].id;
-        alert(response);
+        alert(response.name);
       }
     }
 );
