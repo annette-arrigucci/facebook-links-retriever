@@ -84,18 +84,20 @@
       console.log('Successful login for: ' + response.name);
       document.getElementById('status').innerHTML =
         'Thanks for logging in, ' + response.name + '!';
+      getAlert();
     });
   }
 
-  FB.api(
-    "/me",
-    function (response) {
-      if (response && !response.error) {
+  function getAlert {
+  	FB.api(
+    '/me',
+    	function (response) {
+      		if (response && !response.error) {
         //document.getElementById('.links-feed').innerHTML = response[0].id;
-        alert(response.name);
-      }
-    }
-);
+        	alert(response.name);
+      		}
+		});
+  }
 
   
 
