@@ -84,9 +84,17 @@
       console.log('Successful login for: ' + response.name);
       document.getElementById('status').innerHTML =
         'Thanks for logging in, ' + response.name + '!';
-      document.getElementById('links-feed').innerHTML = response.feed;
     });
   }
+
+  FB.api(
+    "/me/feed",
+    function (response) {
+      if (response && !response.error) {
+        document.getElementById('.links-feed').innerHTML = response;
+      }
+    }
+);
 
   
 
