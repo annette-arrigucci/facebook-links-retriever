@@ -33,6 +33,17 @@ friendsList[i].picture);
 		$(".links-feed").append(myClone);
 	};
 
+	$("#search").on("click", function {
+  	//checkLoginState();
+  		var searchTerm = $("#friend-search").val();
+    	alert(searchTerm);
+  		var queryString = "/search?q=" + searchTerm + "&type=user";
+  		alert(queryString);
+  		/*FB.api(queryString, function(response) {
+       	alert(response.data[0].name);
+        });*/
+  });
+
 	/*var link1 = {
 		name: "Headline1",
 		description: "The description of the link goes here",
