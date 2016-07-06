@@ -86,6 +86,19 @@
         'Thanks for logging in, ' + response.name + '!';
     });
   }
+
+  $("#search").on("click", searchName);
+
+  function searchName() {
+  	checkLoginState();
+  	var searchTerm = $("#search").val();
+  	var queryString = "/search?q=" + searchTerm + "&type=user";
+  	FB.api(queryString, function(response) {
+       alert("Query done");
+    });
+  }
+
+
 </script>
 
 	<header>
